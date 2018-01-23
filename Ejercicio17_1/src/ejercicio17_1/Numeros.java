@@ -19,9 +19,9 @@ public class Numeros{
             System.out.println(numeros[i]);
         }
     }
-    public void mostrarArray(){
-        for(int i=0; i<numeros.length; i++){
-            System.out.println(numeros[i]);
+    public void mostrarArray(int[] array){
+        for(int i=0; i<array.length; i++){
+            System.out.println(array[i]);
         }
     }
 
