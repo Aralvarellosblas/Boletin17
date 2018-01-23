@@ -12,6 +12,9 @@ public class Ejercicio17_1 {
     public static void main(String[] args) {
         Numeros num=new Numeros();
         num.arrayNum();
+        System.out.println("Del revés");
+        int[] numeros=num.reverseArray();
+        num.mostrarArray();
     }
 
 }
